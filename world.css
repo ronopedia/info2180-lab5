@@ -7,9 +7,15 @@ body {
     background-color: rgba(15, 133, 230, 0.7);
 }
 
+header {
+    width: auto;
+    height: auto;
+    background-image: url("earth.jpg");
+}
+
 h1{
     text-align: center;
-    color: rgb(8, 80, 5);
+    color: rgb(175, 218, 174);
 }
 
 #controls{
@@ -27,6 +33,7 @@ label{
 
 input{
     grid-area: search;
+    height: 30px;
 }
 
 button{
@@ -55,11 +62,11 @@ table{
 
 table th{
     text-align: center;
-    background-color: #660202;
+    background-color: #451ae2;
     color:white;
     padding: 4px 30px 4px 8px;
 }
 
 table tr:nth-child(odd) td{
-    background-color: teal;
+    background-color: #6e48f8;
 }
