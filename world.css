@@ -1,1 +1,64 @@
-/* Add your own styles */
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(6, 0, 36, 0.7);
+}
+
+h1{
+    text-align: center;
+}
+
+#controls{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap:20px;
+    grid-template-areas:
+    "search search" 
+    "float1 float2";
+}
+label{
+    grid-area:label;
+    display: none;
+}
+
+input{
+    grid-area: search;
+}
+
+button{
+    border: 3px solid rgb(11, 219, 202);
+    background: rgb(173, 231, 11);
+    color: rgb(36, 48, 214);
+    border-radius: 7px 10px 10px 7px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.float1{
+    grid-area: float1;
+}
+
+.float2{
+    grid-area: float2;
+}
+
+table{
+    text-align: left;
+    width: 1200px;
+    margin: auto;
+    table-layout: fixed;
+}
+
+table th{
+    text-align: center;
+    background-color: #660202;
+    color:white;
+    padding: 4px 30px 4px 8px;
+}
+
+table tr:nth-child(odd) td{
+    background-color: teal;
+}
