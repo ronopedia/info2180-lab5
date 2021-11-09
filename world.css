@@ -9,7 +9,7 @@ body {
 
 header {
     width: auto;
-    height: auto;
+    height: 150px;
     background-image: url("earth.jpg");
 }
 
